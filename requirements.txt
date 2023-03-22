@@ -6,3 +6,4 @@ numpy==1.23.1
 seaborn==0.12.2
 statsmodels==0.13.5
 math==3.5
+io==3.3
