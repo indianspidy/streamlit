@@ -31,7 +31,7 @@ if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
     st.subheader("Descriptive Analytics")
     st.write("Visualizing the dataset with line chart")
-    st.line_chart(df, x="YearsExperience", y="Salary")
+    st.line_chart(df)
     st.write("Understanding the key elements of the data set")
     st.write("Shape (rows, columns): ", df.shape)
     # create DataFrame using data
