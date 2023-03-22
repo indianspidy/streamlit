@@ -5,4 +5,3 @@ pandas==1.0.5
 numpy==1.23.1
 seaborn==0.12.2
 statsmodels==0.13.5
-io==3.3
